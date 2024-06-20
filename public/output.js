@@ -20,6 +20,20 @@ var swiper = new Swiper(".main4Swiper", {
         nextEl: ".main4Next",
         prevEl: ".main4Prev",
     },
+    breakpoints: {
+      320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+      },
+      640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+      },
+      1024: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+      }
+  }
   });
 
   //SlideMain6
@@ -34,6 +48,20 @@ var swiper = new Swiper(".main4Swiper", {
         nextEl: ".main6Next",
         prevEl: ".main6Prev",
     },
+    breakpoints: {
+      320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+      },
+      640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+      },
+      1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+      }
+  }
   });
 
   //slideMain9
@@ -49,6 +77,20 @@ var swiper = new Swiper(".main4Swiper", {
         nextEl: ".main9Next",
         prevEl: ".main9Prev",
     },
+    breakpoints: {
+      320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+      },
+      640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+      },
+      1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+      }
+  }
   });
   //slideMain10
   var swiper = new Swiper(".Slidemain10Swiper", {
@@ -63,4 +105,18 @@ var swiper = new Swiper(".main4Swiper", {
         nextEl: ".main10Next",
         prevEl: ".main10Prev",
     },
+    breakpoints: {
+      320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+      },
+      640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+      },
+      1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+      }
+  }
   });

@@ -91,28 +91,26 @@ section {
     background-color: white;
     margin-bottom:5px;
 }
-.banner img{
+/* .banner img{
     object-fit: cover;
     width:full;
     height:full;
-}
+} */
 .logo img{
     object-fit: cover;
-    width:full;
-    height:full;  
+    width:100%;
+    height:100%;  
 }
 .iconMain2 img{
     object-fit: cover;
-    width:full;
-    height:full;
+    width:100%;
+    height:100%;
 }
 .iconMain2{
     margin-right:16px;
 }
 .bg_main4 img{
     object-fit: cover;
-    width:full;
-    height:full; 
 }
 .border_main4{
     box-shadow: 0px 4px 12px 0px #00000014;
@@ -138,11 +136,17 @@ text-align: center;
 }
 .bg_main9{
     background-image:url('img/bg_main9.png');
+    width:100%;
+    height:100%; 
+}
+.bg_main9_color{
+    width:100%;
+    height:100%; 
 }
 .bg_main9_color img{
     object-fit: cover;
     width:100%;
-    height:100%; 
+    height:75%; 
 }
 .bg_main10{
     background-image:url('img/bg_main10.png');
@@ -156,7 +160,15 @@ text-align: center;
     background: linear-gradient(90deg, #FBC2EB 0%, #A18CD1 100%);
 
 }
-/*  */
+.bg_header{
+    background-image:url('img/bg_header.png');
+    background-size: cover;
+    background-position: center;
+}
 
+.butHover:hover{
+    background: linear-gradient(90deg, #FBC2EB 0%, #A18CD1 100%);
+
+}
 
 
